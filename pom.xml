@@ -14,7 +14,7 @@
 	<name>mongodbOrders</name>
 	<description>Orders CRUD API</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation -->

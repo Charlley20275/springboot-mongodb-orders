@@ -6,6 +6,9 @@ import javax.validation.constraints.NotNull;
 
 import org.springframework.data.annotation.Id;
 
+import com.fasterxml.jackson.annotation.JsonRootName;
+
+@JsonRootName(value="data")
 public class OrdersDTO {
 
 	@Id

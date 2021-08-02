@@ -29,7 +29,7 @@ private OrdersService ordersService;
 public ResponseEntity<?> getAllOrders()
 {
 	List<OrdersDTO> orders =ordersService.getAllOrders();
-	return new ResponseEntity<>(orders,orders.size()>0 ? HttpStatus.OK:HttpStatus.NOT_FOUND);
+	return new ResponseEntity<List< OrdersDTO>>(orders,orders.size()>0 ? HttpStatus.OK:HttpStatus.NOT_FOUND);
 }
 
 
